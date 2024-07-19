@@ -2,22 +2,26 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [Dataset](#dataset)
-4. [Model](#model)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Results](#results)
-8. [Contributions](#contributions)
-9. [License](#license)
-10. [Contact](#contact)
+- [Cross-Connection Puf Project](#cross-connection-puf-project)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Project Overview](#project-overview)
+  - [Model](#model)
+    - [Model Pipeline](#model-pipeline)
+    - [Model Parameters](#model-parameters)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Usage](#usage)
+  - [Results](#results)
+    - [Model Performance](#model-performance)
+  - [Contact](#contact)
 
 ---
 
 ## Introduction
 
-Welcome to the Coco Puf Project! This project aims to predict the output Response for the Cross-Connection Puf using a Binary Classifier Logistic Regression model. By analyzing various features, the model can Predict The correct output of COCO-PUF. 
+Welcome to the Coco Puf Project! This project aims to predict the output Response for the Cross-Connection Puf using a Binary Classifier Logistic Regression model. By analyzing various features, the model can Predict The correct output of COCO-PUF.
 
 ## Project Overview
 
@@ -52,23 +56,23 @@ The model used in this project is a Logistic Regression classifier, which is sui
 
 1. **Clone the repository**:
 
-    ```bash
-    git clone https://github.com/your-username/coco-pufs-project.git
-    cd coco-pufs-project
-    ```
+   ```bash
+   git clone https://github.com/your-username/coco-pufs-project.git
+   cd coco-pufs-project
+   ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 3. **Install the required dependencies**:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
@@ -76,23 +80,24 @@ The model used in this project is a Logistic Regression classifier, which is sui
 
 2. **Open the given .py file**:
 
-    ```bash
-    jupyter notebook
-    ```
+   ```bash
+   jupyter notebook
+   ```
 
-    Open `submit.py` and run to preprocess the data, train the model, and make predictions.
+   Open `submit.py` and run to preprocess the data, train the model, and make predictions.
 
 3. **Make Predictions**:
 
-    Use the provided script to make predictions on new customer data:
+   Use the provided script to make predictions on new customer data:
 
-    ```bash
-    python predict.py --input data/new_customers.csv --output results/predictions.csv
-    ```
+   ```bash
+   python predict.py --input data/new_customers.csv --output results/predictions.csv
+   ```
 
-    **Parameters**:
-    - `--input`: Path to the new customer data file.
-    - `--output`: Path to save the prediction results.
+   **Parameters**:
+
+   - `--input`: Path to the new customer data file.
+   - `--output`: Path to save the prediction results.
 
 ## Results
 
@@ -102,16 +107,13 @@ The Logistic Regression model achieved the following performance metrics on the 
 
 - **Accuracy**: 99.8% for Response1 and 98.8% for Response0
 
-
 The model shows good performance in predicting the output of PUF.
-
 
 ## Contact
 
 For questions or suggestions, please contact:
 
-- **Name**: Dhruv Bansal
-- **Email**: dhrubb22@iitk.ac.in
-- **GitHub**: [@janedoe](https://github.com/janedoe)
+- **Name**: Dhruv Mittal
+- **Email**: mdhruv22@iitk.ac.in
 
 ---
