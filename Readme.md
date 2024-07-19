@@ -57,8 +57,8 @@ The model used in this project is a Logistic Regression classifier, which is sui
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/coco-pufs-project.git
-   cd coco-pufs-project
+   git clone https://github.com/jiraiya1306/Coco-Puf.git
+   cd Coco-Puf
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
